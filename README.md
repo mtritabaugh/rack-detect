@@ -11,7 +11,7 @@ This has only been used to peer with top of rack switches
 **NOTE** Only supports up to 3 racks/subnets/peerlists.
 
 ## Features
-Echos BGP_PEER and BGP_AS
+Echos a script to use to start kube-vip with BGP_PEER and BGP_AS environment variables.
 
 ## Requirements to work as designed for kube-vip
 container environment variables for each network cidr - NET_CIDR1, NET_CIDR2, NET_CID3
@@ -98,6 +98,3 @@ containers:
 
 ```
 
-## Features
-
-Echos the B
